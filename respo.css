@@ -1,0 +1,84 @@
+/*
+* Main style for Responsive Tab Widget
+* Author: Basanta Moharana
+*/
+.tabs {
+  height: 40px;
+  margin-bottom: 0;
+  border-bottom: 1px solid #2c3e50;
+  background: #2c3e50;
+}
+
+.tabs li {
+  border: 0px solid #e6e6e6 !important;
+  border-right: none;
+  background-color: #ecf0f1;
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  float: none;
+  padding: 0px !important;
+  height: 15px;
+  margin: 0px !important;
+  line-height: 1 !important;
+  font-size: 18px !important;
+}
+.tabs li a {
+  text-decoration: none;
+  display: block;
+  background: #2c3e50;
+  padding: 11px 0px;
+  color: #fff !important;
+}
+
+.tabs li:last-child {
+  border-right: 1px solid #e6e6e6;
+}
+
+.tabs li.ui-state-active a {
+  background: #2980b9;
+}
+.respo-panes {
+  background-color: #ecf0f1;
+  padding: Infinitypx;
+  padding-top: 9px;
+}
+.respo-panes li span {
+ font-size: 16px;
+ line-height: 1.2;
+}
+.respo-panes .respo-show-thumbnail {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.respo-panes .respo-show-thumbnail li:before,
+.respo-panes .respo-show-thumbnail li:after
+ {
+  content: '';
+  display: block;
+  clear: both;
+}
+.respo-panes  a {
+ display: block;
+}
+.respo-panes .respo-show-thumbnail img {
+  width: 50px;
+  height: auto;
+  float: left;
+  margin: 5px 5px 5px 0px;
+}
+.respo-panes .respo-show-thumbnail li {
+  border-bottom: 1px solid #bdc3c7;
+  clear: both;
+  padding: 10px 0px;
+}
+.respo-panes .respo-show-thumbnail li:first-child img {
+  width: 100%;
+}
+.respo-panes .respo-show-thumbnail li:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.respo-panes a {
+  text-decoration: none;
+}
